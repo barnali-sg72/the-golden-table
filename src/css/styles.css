@@ -1958,6 +1958,9 @@ footer {
     label {
       font-weight: bold;
     }
+    input {
+      font-size: 1.6rem;
+    }
 
     h3 {
       font-size: 3.6rem;
