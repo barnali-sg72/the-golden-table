@@ -23,6 +23,13 @@ function CallToAction() {
         <button aria-label="Reserve a table" onClick={handleClick}>
           Reserve a table
         </button>
+        <button
+          aria-label="Order Now"
+          className="order secondary"
+          onClick={() => navigate("/menu")}
+        >
+          Order Now
+        </button>
       </article>
       {/*<div className="section-img">
         <img src={food} alt="food"></img>

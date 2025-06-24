@@ -92,10 +92,7 @@ export default function MenuList({ addOrder }) {
         <div className="menu-list">
           {data.map((rec, k) => (
             <article className="card" key={k}>
-              <img
-                src={`http://localhost:3000/${rec.image}`}
-                alt={rec.name}
-              ></img>
+              <img src={rec.image} alt={rec.name}></img>
 
               <div className="card-content">
                 <h3 className="card-title">{rec.name}</h3>

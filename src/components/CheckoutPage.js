@@ -641,7 +641,9 @@ export default function CheckoutPage({
                     className="btn bg-yellow"
                     value="Place Order"
                   />
-                  <button aria-label="Cancel">Cancel</button>
+                  <button className="tertiary" aria-label="Cancel">
+                    Cancel
+                  </button>
                 </div>
               </form>
             )}

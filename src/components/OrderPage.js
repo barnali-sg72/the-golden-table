@@ -145,6 +145,7 @@ export default function OrderPage({ order, updateOrder, deleteOrder }) {
             Checkout
           </button>
           <button
+            className="tertiary"
             aria-label="Cancel Order"
             disabled={
               order === null || order === undefined || order.items.length === 0

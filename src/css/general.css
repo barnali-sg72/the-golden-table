@@ -278,7 +278,8 @@ h4 {
 }
 
 .bg-lightgrey {
-  background-color: #f3f0eb;
+  /*background-color: #f3f0eb;*/
+  background-color: #fef5e7;
 }
 
 .bg-beigegrey {
@@ -287,8 +288,8 @@ h4 {
 }
 
 .bg-beigedark {
-  /*background-color: rgb(212, 189, 189);*/
-  background-color: rgb(208, 204, 204);
+  /*background-color: rgb(208, 204, 204);*/
+  background-color: #fef5e7;
 }
 
 .bg-lightmaroon {
@@ -328,21 +329,36 @@ input[type="submit"] {
     vertical-align: middle;
   }
 }
+button:hover,
+input[type="submit"]:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
 
 button.secondary,
+input[type="submit"].secondary {
+  background-image: none;
+  background-color: transparent;
+  color: #fbbf24;
+  border: 1px solid #fbbf24;
+  box-shadow: none;
+}
+
+/*button.secondary,
 input[type="submit"].secondary {
   background-image: none;
   background-color: #fbbf24;
   color: #451a03;
   box-shadow: none;
-}
+}*/
 
 button.tertiary,
 input[type="submit"].tertiary {
   background-image: none;
-  background-color: #ffffff;
+  background-color: transparent;
   /*background-color: #633602;*/
-  color: #292524;
+  color: #451a03;
+  border: 1px solid #451a03;
   box-shadow: none;
 }
 

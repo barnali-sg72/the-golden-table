@@ -420,6 +420,9 @@ h3.card-title {
     padding: 2rem;
     margin: 2rem;
   }
+  button.order {
+    margin-left: 2rem;
+  }
 
   padding: 0;
 }
@@ -617,8 +620,12 @@ h3.card-title {
 }*/
 
 /* FOOTER STYLES */
-
 footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -708,6 +715,12 @@ footer {
   margin-bottom: 2rem;
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  align-self: center;
+  margin-bottom: 2rem;
 }
 
 /* MENU CATEGORY SECTION */
@@ -1089,7 +1102,9 @@ footer {
   align-self: flex-start;
   width: 100%;
   height: auto;
-
+  /*border: 1px solid #dddddd;*/
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
   background-color: white;
   padding: 3rem;
   input[type="submit"] {
@@ -1195,6 +1210,7 @@ footer {
     overflow: hidden;
     gap: 1rem;
     /*border: 1px solid #aaaaaa;*/
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
     margin-bottom: 3rem;
     background-color: white;
@@ -1518,7 +1534,8 @@ footer {
         }
 
         .checkout-section {
-          border: 1px solid #dddddd;
+          /*border: 1px solid #dddddd;*/
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
           border-radius: 10px;
           overflow: hidden;
           /*box-shadow: 1rem 1rem 1rem #aaaaaa;*/
@@ -1601,7 +1618,8 @@ footer {
       .list {
         display: flex;
         flex-direction: column;
-        border: 1px solid #dddddd;
+        /*border: 1px solid #dddddd;*/
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
         border-radius: 1rem;
         overflow-y: hidden;
         padding: 0;

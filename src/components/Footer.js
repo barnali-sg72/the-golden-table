@@ -8,8 +8,8 @@ import {
 
 function Footer() {
   return (
-    <>
-      <footer>
+    <footer>
+      <div className="footer-section">
         <div className="footer-logo">
           <img src={logo} alt="logo" />
         </div>
@@ -55,7 +55,7 @@ function Footer() {
           <h6>SOCIAL MEDIA</h6>
           <ul className="social">
             <li>
-              <a href="http://www.facebook.com">
+              <a href="http://www.facebook.com" target="_blank">
                 <FaSquareFacebook
                   className="faicon facebook"
                   aria-label="facebook"
@@ -63,12 +63,12 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="http://www.linkedin.com">
+              <a href="http://www.linkedin.com" target="_blank">
                 <FaLinkedin className="faicon linkedin" aria-label="linkedin" />
               </a>
             </li>
             <li>
-              <a href="http://www.twitter.com">
+              <a href="http://www.twitter.com" target="_blank">
                 <FaSquareTwitter
                   className="faicon twitter"
                   aria-label="twitter"
@@ -76,7 +76,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="http://www.pinterest.com">
+              <a href="http://www.pinterest.com" target="_blank">
                 <FaSquarePinterest
                   className="faicon pinterest"
                   aria-label="pinterest"
@@ -85,8 +85,9 @@ function Footer() {
             </li>
           </ul>
         </div>
-      </footer>
-    </>
+      </div>
+      <p className="copyright">@Copyright The Golden Table Inc.</p>
+    </footer>
   );
 }
 
