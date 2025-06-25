@@ -913,6 +913,13 @@ footer {
         /*height: 25%;*/
 
         border-top: 1px solid #ccc;
+        .qty select {
+          width: 5rem;
+          height: 3rem;
+          font-size: 1.4rem;
+          border-radius: 0.5rem;
+          padding-left: 1rem;
+        }
       }
       .card-content {
         height: 45%;
@@ -1256,9 +1263,15 @@ footer {
       margin: 0.5rem 1rem 1rem 1rem;
       width: 20%;
       display: inline-flex;
+      align-items: center;
       align-self: self-start;
       label {
         font-size: 1.6rem;
+      }
+      select {
+        font-size: 1.4rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 1rem;
       }
     }
     p.price {
@@ -1479,7 +1492,7 @@ footer {
           gap: 2rem;
           padding: 20px;
           border: 1px solid #cccccc;
-          border-radius: 10px;
+          border-radius: 1rem;
           div.fields {
             display: flex;
             align-items: first baseline;
@@ -1531,12 +1544,18 @@ footer {
           input#cvc {
             width: 30%;
           }
+          input#date {
+            width: 70%;
+          }
+          select#time {
+            width: 70%;
+          }
         }
 
         .checkout-section {
           /*border: 1px solid #dddddd;*/
           box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-          border-radius: 10px;
+          border-radius: 1rem;
           overflow: hidden;
           /*box-shadow: 1rem 1rem 1rem #aaaaaa;*/
           background-color: white;
@@ -1590,7 +1609,7 @@ footer {
         select:has(+ .error) {
           border: 1px solid #bf0000;
           background-color: #f3afaf;
-          border-radius: 3px;
+          border-radius: 1rem;
         }
 
         .buttons {

@@ -64,17 +64,15 @@ input {
 input,
 select {
   border: 1px solid #aaaaaa;
-  border-radius: 1rem;
+  border-radius: 3px;
+  background-color: white;
+  color: #292524;
 }
 
 input:has(+ .error),
 select:has(+ .error) {
   border: 3px solid #bf0000 !important;
-  border-radius: 16px;
-}
-
-select {
-  background-color: white;
+  border-radius: 3px;
 }
 
 /* DIALOG */

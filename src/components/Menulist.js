@@ -101,10 +101,10 @@ export default function MenuList({ addOrder }) {
               </div>
               <div className="order">
                 <div className="qty">
-                  <label htmlFor="quantity-k">Qty: </label>
+                  <label htmlFor={"quantity-" + k}>Qty: </label>
                   <select
-                    id="quantity-k"
-                    name="quantity-k"
+                    id={"quantity-" + k}
+                    name={"quantity-" + k}
                     value={rec.qty}
                     onChange={(e) => handleOnQuantityChange(e, rec.name)}
                   >
