@@ -73,6 +73,10 @@ select:has(+ .error) {
   border-radius: 16px;
 }
 
+select {
+  background-color: white;
+}
+
 /* DIALOG */
 .modal {
   z-index: 1000000;
