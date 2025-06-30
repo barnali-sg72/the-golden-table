@@ -59,7 +59,7 @@ export default function OrderPage({ order, updateOrder, deleteOrder }) {
 
           
         </svg>*/}
-        <img className="phone" src={phone} alt="phone"></img>
+        <img className="phone" src={phone} alt="phone" loading="lazy"></img>
         <div className="section-img"></div>
       </section>
 
@@ -70,7 +70,7 @@ export default function OrderPage({ order, updateOrder, deleteOrder }) {
             order.items.map((ord, ind) => (
               <article key={ind} className="item-card">
                 <div className="item-image">
-                  <img alt={ord.image} src={ord.image} />
+                  <img alt={ord.image} src={ord.image} loading="lazy" />
                 </div>
                 <div className="item-desc">
                   <h4>{ord.item}</h4>

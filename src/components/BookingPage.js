@@ -75,13 +75,13 @@ function BookingPage({ availableTimes, dispatch, submitForm }) {
         />
         <div className="images">
           <div className="img1">
-            <img src={image1} alt="image1"></img>
+            <img src={image1} alt="Food Served" loading="lazy"></img>
           </div>
           <div className="img2">
-            <img src={image2} alt="image2"></img>
+            <img src={image2} alt="Dining Area" loading="lazy"></img>
           </div>
           <div className="img3">
-            <img src={image3} alt="image3"></img>
+            <img src={image3} alt="Dining Experience" loading="lazy"></img>
           </div>
 
           {/*<img className="img4" src={image4} alt="image4"></img>*/}

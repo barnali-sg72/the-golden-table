@@ -278,7 +278,8 @@ export default function CheckoutPage({
                       </span>
                       <span className="pickup">
                         <label htmlFor="pickup">
-                          Pickup <img alt="pickup" src={pickup}></img>
+                          Pickup{" "}
+                          <img alt="pickup" loading="lazy" src={pickup}></img>
                         </label>
                       </span>
                       <span>
@@ -296,7 +297,12 @@ export default function CheckoutPage({
                       </span>
                       <span className="delivery">
                         <label htmlFor="delivery">
-                          Delivery <img alt="delivery" src={delivery}></img>
+                          Delivery{" "}
+                          <img
+                            alt="delivery"
+                            loading="lazy"
+                            src={delivery}
+                          ></img>
                         </label>
                       </span>
                     </div>
@@ -663,7 +669,11 @@ export default function CheckoutPage({
                         <tr key={ind}>
                           <td>
                             <div>
-                              <img alt={ord.item} src={ord.image} />
+                              <img
+                                alt={ord.item}
+                                loading="lazy"
+                                src={ord.image}
+                              />
                               <span>{ord.item}</span>
                             </div>
                           </td>

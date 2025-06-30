@@ -26,7 +26,12 @@ function Header() {
 
   return (
     <header>
-      <img src={logo} alt="logo" onClick={(e) => navigate("/home")}></img>
+      <img
+        src={logo}
+        alt="logo"
+        loading="lazy"
+        onClick={(e) => navigate("/home")}
+      ></img>
       <Nav
         handleMenuClick={handleMenuClick}
         isDropdownMenu={isDropdownMenu}

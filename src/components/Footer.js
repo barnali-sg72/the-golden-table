@@ -11,7 +11,7 @@ function Footer() {
     <footer>
       <div className="footer-section">
         <div className="footer-logo">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" loading="lazy" />
         </div>
         <div className="footer-item">
           <h6>DOORMAT NAVIGATION</h6>

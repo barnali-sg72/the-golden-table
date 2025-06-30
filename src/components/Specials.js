@@ -20,7 +20,7 @@ function Specials({ addOrder }) {
       </div>
       <div className="card-list">
         <article className="card">
-          <img src={greekSalad} alt="greek salad" />
+          <img src={greekSalad} alt="greek salad" loading="lazy" />
           <div className="card-content">
             <div className="card-header">
               <h4>Greek Salad</h4>
@@ -49,7 +49,7 @@ function Specials({ addOrder }) {
           </button>
         </article>
         <article className="card">
-          <img src={bruschetta} />
+          <img src={bruschetta} alt="bruschetta" loading="lazy" />
           <div className="card-content">
             <div className="card-header">
               <h4>Bruschetta</h4>
@@ -78,7 +78,7 @@ function Specials({ addOrder }) {
           </button>
         </article>
         <article className="card">
-          <img src={tiramisu} />
+          <img src={tiramisu} alt="tiramisu" loading="lazy" />
           <div className="card-content">
             <div className="card-header">
               <h4>Tiramisu</h4>

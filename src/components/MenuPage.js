@@ -184,6 +184,7 @@ export default function MenuPage() {
                 className="card-img-top"
                 src={rec.image}
                 alt={rec.title}
+                loading="lazy"
               ></img>
               <div className="card-body">
                 {/*{ rec.rating && rec.rating >0 ? 

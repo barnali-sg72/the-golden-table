@@ -34,7 +34,7 @@ function ReservationsPage({ reservations, deleteReservation }) {
           </button>
         </article>
         <div className="section-img">
-          <img src={restaurant} alt="restaurant"></img>
+          <img src={restaurant} alt="restaurant" loading="lazy"></img>
         </div>
       </section>
       <section className="list">
